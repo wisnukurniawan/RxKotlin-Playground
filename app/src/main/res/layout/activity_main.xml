@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context="com.wisnu.rxjavaplayground.MainActivity">
+
+    <Button
+        android:id="@+id/go_to_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="search" />
+
+    <Button
+        android:id="@+id/go_to_styled_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="styled text" />
+
+    <Button
+        android:id="@+id/go_to_validate_form"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="validate form" />
+
+    <Button
+        android:id="@+id/go_to_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="login" />
+
+</LinearLayout>
